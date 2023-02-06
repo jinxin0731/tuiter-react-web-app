@@ -52,8 +52,8 @@
     margin: 0;
 }
 
-.wd-border-under-handle {
-    border-bottom: lightgray solid 1px;
+.wd-margin-right-16px {
+    margin-right: 16px;
 }
 
 .wd-post {
@@ -110,8 +110,11 @@
 .wd-main-content {
     font-size: 15px;
     color: white;
-    max-width: 506px;
     margin-bottom: 12px;
+}
+
+.wd-max-para {
+    max-width: 506px;
 }
 
 .wd-position {
@@ -164,13 +167,19 @@
     font-size: 13px;
 }
 
-.flex-container {
+.wd-flex-container {
     margin: 12px;
     border-color: black;
     border-style: solid;
     display: flex;
     justify-content: space-between;
 }
+
+.wd-flex-post {
+    display: flex;
+
+}
+
 
 
 
