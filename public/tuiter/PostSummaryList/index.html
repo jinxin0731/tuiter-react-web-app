@@ -3,22 +3,21 @@
 <head>
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="./index.css">
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/2c2f6e8af4.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
             integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
             crossorigin="anonymous"></script>
     <meta charset="UTF-8">
-    <title>Navigation Sidebar</title>
+    <title>Title</title>
 </head>
 <body>
 
-    <div class="container" id="wd-explore"></div>
-    <script type="module">
-        import navigationSidebar from "./index.js";
-        $("#wd-explore").append(`${navigationSidebar()}`)
-    </script>
-
+<div class="container" id="wd-explore"></div>
+<script type="module">
+    import PostSummaryList from "./index.js";
+    $("#wd-explore").append(`${PostSummaryList()}`)
+</script>
 
 </body>
 </html>
