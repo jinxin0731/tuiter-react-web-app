@@ -1,0 +1,49 @@
+.wd-button-color {
+    background-color: #329BF0;
+}
+
+.wd-font-color {
+    color: #329BF0;
+}
+
+.wd-color-gray {
+    color: gray;
+}
+
+.wd-no-underline {
+    text-decoration: none;
+}
+
+.wd-link-underline {
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(29, 161, 242);
+
+}
+
+.wd-inline-height {
+    inline-size: 3px;
+}
+
+.wd-verified-badge {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.wd-font-size {
+    font-size: 13px;
+}
+
+.wd-circle-portrait {
+    display:inline-block;
+    position:relative;
+    width:48px;
+    height:48px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.wd-gear-icon {
+    width: 24px;
+    height: 24px;
+}

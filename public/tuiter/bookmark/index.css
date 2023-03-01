@@ -1,0 +1,205 @@
+.wd-background-color {
+    background-color: black;
+}
+
+.wd-border-style {
+    border: 1px solid rgb(47, 51, 54);
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.wd-post-width {
+    width: 100%;
+}
+
+.wd-border-top-12px {
+    padding-top: 12px;
+}
+
+.wd-padding-all {
+    padding: 12px;
+}
+
+.wd-border-bottom-12px {
+    padding-bottom: 12px;
+}
+
+.wd-border-right-12px {
+    padding-right: 12px;
+}
+
+.wd-border-right-16px {
+    padding-right: 16px;
+}
+
+.wd-border-left-12px {
+    padding-left: 12px;
+}
+
+.wd-border-left-16px {
+    padding-left: 16px;
+}
+
+.wd-border-bottom-none {
+    border-bottom: none;
+}
+
+.wd-border-top-none {
+    border-top: none;
+}
+
+.wd-no-margin {
+    margin: 0;
+}
+
+.wd-margin-right-16px {
+    margin-right: 16px;
+}
+
+/*.wd-post {*/
+/*    float: left;*/
+/*    margin-left: 12px;*/
+/*}*/
+
+.wd-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-user {
+    color: lightgray;
+    font-size: 13px;
+}
+
+.wd-font-family {
+    font-family: sans-serif;
+}
+
+/*.wd-author-portrait {*/
+/*    float: left;*/
+/*}*/
+
+.wd-author-portrait-style {
+    border-radius: 24px;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-author-name {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-author-handle {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-time {
+    color: lightgrey;
+    font-size: 15px;
+}
+
+/*.wd-float-done {*/
+/*    clear: both;*/
+/*}*/
+
+.wd-main-content {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 12px;
+    float: right;
+    right: 16px;
+    position: relative;
+}
+
+.wd-max-para {
+    max-width: 506px;
+}
+
+.wd-position {
+    position: relative;
+}
+
+.wd-post-pic-border {
+    border: 1px solid rgb(47, 51, 54);
+    width: 504px;
+    border-radius: 12px;
+    border-bottom-width: thin;
+}
+
+.wd-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    object-fit: cover;
+}
+
+.wd-pic-below-content-area {
+    margin-top: 0;
+}
+
+.wd-small-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    color: lightgrey;
+}
+
+.wd-heart-icon {
+    color: red;
+}
+
+.wd-news-link {
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.wd-icon-link {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.wd-icon-number {
+    font-size: 13px;
+}
+
+.wd-flex-container {
+    margin: 12px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+}
+
+.wd-flex-container-25 {
+    display: flex;
+    width: 25%;
+}
+
+.wd-flex-post {
+    display: flex;
+}
+
+.wd-flex-box1 {
+    margin-left: 16px;
+}
+
+.wd-flex-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
