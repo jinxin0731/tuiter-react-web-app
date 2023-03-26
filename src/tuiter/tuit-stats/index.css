@@ -1,0 +1,12 @@
+.wd-font-size {
+    font-size: 14px;
+}
+
+.wd-icon-item {
+    display: flex;
+    width: 25% !important;
+}
+
+.wd-icon-red {
+    color: red;
+}
