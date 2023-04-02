@@ -1,15 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import {useDispatch} from "react-redux";
-import {updateLike} from "../tuits/tuits-reducer";
 import "./index.css";
 import * as Icon from "react-bootstrap-icons";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 
 
 const TuitStats = ({post}) => {
     const dispatch = useDispatch();
-    const handleSaveButton = () => {
-        dispatch(updateLike(post._id));
-    };
     return (
         <>
             <div className="d-flex flex-row float-start mt-2">
@@ -28,20 +25,35 @@ const TuitStats = ({post}) => {
                 </div>
 
                 <div className="wd-font-size wd-icon-item">
-                    <span onClick={handleSaveButton}>
-                        {post.liked ? <Icon.HeartFill className="wd-icon-red"/> :
-                            <Icon.Heart className="wd-font-size"/>}
-                        <span
-                            className="ps-2">{post.likes}</span>
-                    </span>
+                    <a href="#" className="text-decoration-none" onClick={() => dispatch(updateTuitThunk({
+                        ...post,
+                        likes: post.liked ? post.likes - 1 : post.likes + 1,
+                        liked: !post.liked
+                    }))}>
+                        {post.liked ? <Icon.HeartFill className="wd-icon-red"/> : <Icon.Heart className="wd-font-size"/>}
+                        <span className="ps-2 wd-font-size wd-font-family">{post.likes}</span>
+                    </a>
+                </div>
+
+                <div className="wd-font-size wd-icon-item">
+                    <a href="#" className="text-decoration-none" onClick={() => dispatch(updateTuitThunk({
+                        ...post,
+                        dislikes: post.disliked ? post.dislikes - 1 : post.dislikes + 1,
+                        disliked: !post.disliked
+                    }))}>
+                        {post.disliked ? <Icon.HandThumbsDownFill/> : <Icon.HandThumbsDown className="wd-font-size"/>}
+                        <span className="ps-2 wd-font-size wd-font-family">{post.dislikes}</span>
+                    </a>
                 </div>
 
                 <div className="wd-font-size wd-icon-item">
                     <a href="#" className="bi bi-upload text-secondary wd-comments"/>
                 </div>
 
+
             </div>
         </>
     );
 };
 export default TuitStats;
+
